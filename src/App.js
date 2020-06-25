@@ -1,9 +1,10 @@
 import React from 'react';
+import TodoList from './components/TodoList'
 
 function App() {
   return (
-    <div className="container">
-      <div>Ы</div>
+    <div className="container text-center">
+      <TodoList />
     </div>
   );
 }
